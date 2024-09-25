@@ -1,0 +1,23 @@
+/* div::after {
+    content: "";
+    display: block;
+    clear: both;
+} */
+
+nav {
+    background-color: black;
+}
+
+a {
+    float: left;
+    height: 60px;
+    margin: 20px;
+    line-height: 60px;
+    background-color: #eee;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
